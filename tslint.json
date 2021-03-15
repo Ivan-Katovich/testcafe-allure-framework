@@ -1,0 +1,45 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+        "max-line-length":false,
+        "member-ordering": false,
+        "prefer-const":false,
+        "no-console":false,
+        "no-var-requires":false,
+        "no-string-literal": false,
+        "variable-name":false,
+        "no-shadowed-variable":false,
+        "quotemark": [true, "single"],
+        "object-literal-sort-keys": false,
+        "only-arrow-functions": false,
+        "radix": false,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "ordered-imports": false
+    },
+    "rules": {
+        "no-empty": false,
+        "ban-ts-ignore": true,
+        "interface-name": false,
+        "max-line-length":false,
+        "member-ordering": false,
+        "prefer-const":false,
+        "no-console":false,
+        "forin": false,
+        "no-var-requires":false,
+        "no-string-literal": false,
+        "object-literal-key-quotes": false,
+        "variable-name":false,
+        "max-classes-per-file": false,
+        "no-shadowed-variable":false,
+        "quotemark": [true, "single"],
+        "object-literal-sort-keys": false,
+        "only-arrow-functions": false,
+        "radix": false,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "ordered-imports": false
+    },
+    "rulesDirectory": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "testcafe-automation",
+  "version": "1.0.0",
+  "description": "testcafe automation",
+  "author": "Clarivate",
+  "main": "app.js",
+  "keywords": [
+    "testcafe",
+    "testing",
+    "automation e2e testing"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run execute",
+    "parallel": "npm run lint && node codebase/configuration/parallel.js",
+    "tsc": "node_modules/.bin/tsc --pretty",
+    "lint": "tslint --project tsconfig.json",
+    "execute": "node codebase/configuration/runner.js",
+    "allure-host": "node allure-server.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@types/node": "^9.6.49",
+    "@types/underscore": "^1.10.23",
+    "@types/winston": "^2.4.4",
+    "allure-commandline": "^2.13.0",
+    "axios": "^0.18.1",
+    "chrome-remote-interface": "^0.28.0",
+    "del": "^4.1.0",
+    "exceljs": "^3.1.0",
+    "express": "^4.17.1",
+    "file-regex": "^3.0.1",
+    "form-data": "^3.0.0",
+    "intl": "^1.2.5",
+    "locale-currency": "0.0.2",
+    "moment": "^2.24.0",
+    "mssql": "^5.1.0",
+    "npm-run-all": "^4.1.2",
+    "query-string": "^6.13.8",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "testcafe": "1.10.1",
+    "testcafe-angular-selectors": "^0.3.0",
+    "testcafe-browser-tools": "^2.0.13",
+    "testcafe-reporter-allure": "^1.0.5",
+    "tslib": "^1.9.3",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1",
+    "underscore": "^1.10.2",
+    "unescape": "^1.0.1"
+  }
+}

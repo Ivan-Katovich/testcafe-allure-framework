@@ -1,0 +1,52 @@
+import moment = require('moment');
+
+export const newProcess = {
+    'WorkflowPriority': 1,
+    'ScheduleChanged': 1,
+    'IsDuplicate': false,
+    'Name': '',
+    'CustomResourceName': '',
+    'Description': '',
+    'CustomResourceDescription': '',
+    'IPType': 1,
+    'WorkflowDataSourceId': null,
+    'WorkflowLevelTypeCodeId': '',
+    'RunningTotal1': null,
+    'RunningTotal2': null,
+    'RunningTotal3': null,
+    'Status': false,
+    'WorkflowSummaryFieldsInfo': [],
+    'StartDate': moment().toISOString(),
+    'ActiveStartTime': moment().toISOString(),
+    'FrequencyType': 1,
+    'ContentGroups': []
+};
+
+export const workflowTask = {
+    'TaskId': -100,
+    'TaskName': '',
+    'CustomResourceName': '',
+    'DefaultFlowTaskId': -1,
+    'WorkflowMetaTaskId': 1,
+    'WorkflowMetaTask': {},
+    'WorkflowAlertRepeat': false,
+    'IsTimedAdvanceSelected': false,
+    'IsDefaultFlow': true,
+    'IsUserDecision': false,
+    'IsAlertSelected': false,
+    'TaskTypeCodeId': '',
+    'TimedAdvanceUnitCodeId': 'UNT0000001',
+    'WorkflowAlertAfterUnitCodeId': 'UNT0000001',
+    'TimedAdvancedTaskId': -1,
+    'TimedAdvanceAfter': 1,
+    'WorkflowAlertAfter': 1,
+    'Threshold': 1,
+    'LayoutElement': {},
+    'IsDelegation': false,
+    'IsAutoDocket': false,
+    'IsSurveyModifierSelected': false,
+    'IsRequestCommentsSelected': false,
+    'ResourceId': 0,
+    'SurveyModifierChild': '',
+    'WorkflowTaskContentGroups': []
+};
